@@ -5,6 +5,7 @@ const pkg = require('vitepress/package.json')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/meow/",
   lang: 'zh-CN',
   cleanUrls: true, // 开启纯净链接
   title: "喵～",
